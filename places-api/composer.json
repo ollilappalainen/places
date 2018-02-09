@@ -1,8 +1,13 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "Places api",
+    "description": "CRUD REST api for Places GIS app",
+    "authors" : [
+        {"name":"Olli Lappalainen",
+            "email":"olliplappalainen@gmail.com"
+        }
+    ],
     "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "license": "GNU 3.0",
     "type": "project",
     "require": {
         "php": ">=7.1.3",
