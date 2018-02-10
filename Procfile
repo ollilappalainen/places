@@ -1,1 +1,1 @@
-web: places-api/vendor/bin/heroku-php-nginx places-api/public/
+web: heroku-php-apache2 places-api/public/
