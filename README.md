@@ -45,4 +45,5 @@ Run Client
   * Filter checkboxes are unaligned
   * Search by title might cause an error in Element.remove() function if used too rapidly
   * Favorites are not saved in cookies, so they are global
-  * App uses browser alerts.. 
+  * App uses browser alerts..
+  * App does now know keywords yet
