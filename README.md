@@ -48,3 +48,4 @@ Run Client
   * App uses browser alerts..
   * App does now know keywords yet
   * http requests are slow because of a slow db service
+  * Adding, removing and modifying places might jam the markers and info windows.. then press F5
