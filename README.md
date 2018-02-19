@@ -47,3 +47,4 @@ Run Client
   * Favorites are not saved in cookies, so they are global
   * App uses browser alerts..
   * App does now know keywords yet
+  * http requests are slow because of a slow db service
