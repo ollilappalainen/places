@@ -19,8 +19,13 @@ class PlacesSeeder extends Seeder
 
         for ($i = 0; $i < 10; $i++) {
             Place::create([
-                'name' => $faker->name,
+                'title' => $faker->name,
                 'description' => $faker->paragraph,
+                'geometry_lat' => $faker->integer,
+                'geometry_lng' => $faker->integer,
+                'opening' => $faker->time,
+                'closing' => $faker->time,
+                'is_favorite' => $faker->boolean,
             ]);
         }
     }

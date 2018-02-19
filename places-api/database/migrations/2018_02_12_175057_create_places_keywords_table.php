@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePlacesTable extends Migration
+class CreatePlacesKeywordsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,10 @@ class CreatePlacesTable extends Migration
      */
     public function up()
     {
-        Schema::create('places', function (Blueprint $table) {
+        Schema::create('places_keywords', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('title');
-            $table->text('description');
-            $table->string('geometry_lat');
-            $table->string('geometry_lng');
-            $table->time('opening');
-            $table->time('closing');
-            $table->boolean('is_favorite');
+            $table->string('label');
+            $table->integer('place_id');
             $table->timestamps();
         });
     }
@@ -33,6 +28,6 @@ class CreatePlacesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('places');
+        Schema::dropIfExists('places_keywords');
     }
 }
