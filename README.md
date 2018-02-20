@@ -30,6 +30,9 @@ Client already uses open PostgreSQL database, but if you want to have a local DB
 ## Installation
 
 Run API
+  * copy the .env-example file and rename it as .env, then fill it with your local database settings
+  * Run 'composer install'
+  * Run 'php artisan migrate' or 'php artisan migrate --force' if needed to migrate database
   * Run 'php artisan serve' in the api root directory
   * Client http request uses locally URL 'http://127.0.0.1:8000/api/'
 
