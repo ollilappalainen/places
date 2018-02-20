@@ -37,9 +37,11 @@ Run API
   * Client http request uses locally URL 'http://127.0.0.1:8000/api/'
 
 Run Client
+  * Clone client source from https://github.com/ollilappalainen/places-client
   * in places-client directory run 'npm install'
   * run 'http-server'
   * App should be running now in localhost:8080
+  * If you need to change the API url, you can go change the 'apiUrl' variable value in ./places-client/src/services/places-service.js
 
 ### Known problems
   * Info windows won't automatically close when another is opened
