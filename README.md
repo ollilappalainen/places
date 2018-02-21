@@ -38,6 +38,7 @@ Run API
 
 Run Client
   * Clone client source from https://github.com/ollilappalainen/places-client
+  * Or in places root directory clone submodule using 'git clone --recurse-submodules https://github.com/ollilappalainen/places-client.git'
   * in places-client directory run 'npm install'
   * run 'http-server'
   * App should be running now in localhost:8080
